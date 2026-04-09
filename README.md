@@ -1,6 +1,6 @@
 ## Manual para el juego "Skull King"
 
-# Descripicon
+# Descripcion
 Este proyecto consiste en un manual introcutorio al juego de cartas "Skull King", detallando su contenido, mecanicas , sistemas y autores.
 
 # Contenido
