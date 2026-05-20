@@ -7,7 +7,7 @@
 
 body{
     background-image:url("./Images/fondo-suelo-madera_53876-88628.avif");
-    margin: 20px;
+    margin: 15px;
 
 }
 
@@ -22,4 +22,13 @@ h2{
 
 h3{
     font-family: 'PirataOne';
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+}
+
+nav a{
+    margin-bottom: 25px;
 }
