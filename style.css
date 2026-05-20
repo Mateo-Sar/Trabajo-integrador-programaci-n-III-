@@ -36,11 +36,23 @@ nav a{
 .imagen {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
-  gap: 40px;
+  gap: 25vw;
 }
 
 .imagen img{
 max-height: 253px;
 box-shadow: 10px 10px 10px;
+}
 
+table{
+width: 100%;
+border-collapse: collapse;
+text-align: center;
+border: none;
+}
+
+table td, table th {
+    padding: 5px;
+    border-top: none;
+    border-bottom: none;
 }
