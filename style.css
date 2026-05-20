@@ -32,3 +32,15 @@ nav{
 nav a{
     margin-bottom: 25px;
 }
+
+.imagen {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 40px;
+}
+
+.imagen img{
+max-height: 253px;
+box-shadow: 10px 10px 10px;
+
+}
