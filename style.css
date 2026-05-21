@@ -8,6 +8,7 @@
 body{
     background-image:url("./Images/fondo-suelo-madera_53876-88628.avif");
     margin: 15px;
+    margin-left: 30px;
 
 }
 
@@ -108,4 +109,8 @@ margin-right: 20px;
     display: flex;
     justify-content: center; 
     align-items: center;   
+}
+
+.titulo_indice{
+    font-size: xx-large;
 }
