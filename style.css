@@ -21,6 +21,10 @@ h2{
     font-family: 'PirataOne';
 }
 
+.titulo_indice{
+    font-size: xx-large;
+}
+
 h3{
     font-family: 'PirataOne';
 }
@@ -111,6 +115,36 @@ margin-right: 20px;
     align-items: center;   
 }
 
-.titulo_indice{
-    font-size: xx-large;
+@media (max-width: 768px){
+ .titulo{
+    font-size: 300%;
+ }
+ .titulo_indice{
+    font-size: 250%;
+ }
+ nav a{
+    font-size: 210%;
+ }
+ .imagen{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    margin-left: 100px;
+ }
+.imagen2{
+    display: flex;
+    flex-direction: column;
+    max-width: 10px;
+    margin-left: 200px;
+
+}
+p{
+    font-size:120%;
+}
+td{
+    font-size:120%;
+}
+dt,dd{
+    font-size:120%;
+}
 }
