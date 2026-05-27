@@ -148,3 +148,49 @@ dt,dd{
     font-size:120%;
 }
 }
+
+@media (max-width: 480px){
+ .titulo{
+    font-size: 300%;
+ }
+ .titulo_indice{
+    font-size: 250%;
+ }
+ nav a{
+    font-size: 210%;
+ }
+ .imagen{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    margin-left: 100px;
+ }
+.imagen2{
+    display: flex;
+    flex-direction: column;
+    max-width: 10px;
+    margin-left: 200px;
+
+}
+p{
+    font-size:170%;
+}
+td{
+    font-size:155%;
+}
+dt,dd{
+    font-size:170%;
+}
+#opi{
+    font-size: 150%;
+    
+}
+.btn{
+    padding: 5%;
+    font-size: 170%
+
+}
+#cred{
+    font-size: 190%;
+}
+}
