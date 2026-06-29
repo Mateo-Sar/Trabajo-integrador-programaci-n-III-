@@ -8,3 +8,11 @@ form.addEventListener('submit', function(event) {
   
   document.querySelector(".agradecimiento").innerText = `Gracias por tu opinion, ${name}`;
 });
+
+document.querySelector(".titulo").addEventListener("mouseenter",()=>{
+  document.querySelector(".titulo").innerText = "¡RON! ¡RON! ¡RON!";
+})
+
+document.querySelector(".titulo").addEventListener("mouseleave",()=>{
+  document.querySelector(".titulo").innerText = `Guia para el Juego "Skull King"`;
+})
