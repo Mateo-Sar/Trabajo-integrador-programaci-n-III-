@@ -13,6 +13,12 @@ Este proyecto consiste en un manual introductorio al juego de cartas "Skull King
 * Opinión
 * Créditos
 
+
+
+# Tecnologías
+
+HTML,CSS, JavaScript
+
 # autor
 
 Sartor Mateo
