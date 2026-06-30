@@ -34,13 +34,14 @@ const consejos = [`Evita predecir más bazas de las que realmente puedes control
 
   function mostrarConsejos(){
     const lista = document.querySelector("#lista")
-    lista.innerHTML = " ";
+    
 
+    if(lista.innerHTML === ""){
     for(let consejo of consejos) {
         const item = document.createElement("li");
         item.textContent = consejo
         lista.appendChild(item); // agrega el elemento li a ul
-    }
+    }}else{lista.innerHTML = ""}
 }
 
 document.querySelector("#mostrar").addEventListener("click",mostrarConsejos);
